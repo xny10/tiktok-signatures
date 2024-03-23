@@ -1,0 +1,29 @@
+{
+  "name": "tiktok-signature",
+  "version": "1.9.0",
+  "description": "Generate TikTok Signature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node listen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xny10/tiktok-signatures.git"
+  },
+  "keywords": [
+    "tiktok",
+    "signature",
+    "generator"
+  ],
+  "author": "Botbite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xny10/tiktok-signatures/issues"
+  },
+  "homepage": "https://github.com/xny10/tiktok-signatures#readme",
+  "dependencies": {
+    "playwright": "^1.41.2",
+    "playwright-chromium": "^1.41.2"
+  }
+}
